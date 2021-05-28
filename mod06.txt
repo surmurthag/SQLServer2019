@@ -1,0 +1,3 @@
+bcp gescom.dbo.articles out c:\tp\articles.csv -c -t; -T
+
+bcp "select distinct nom from gescom.dbo.clients" queryout c:\tp\clients.csv -c -t; -T
